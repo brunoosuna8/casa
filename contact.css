@@ -275,6 +275,118 @@ header a:hover{
     height: 80px;
 }
 
+/* ////////////////////news letter section////////////////// */
+.newsletter{
+    width: 100%;
+    height: 150px;
+    background-color: #051732;
+    background-image: url('./img/banner/b14.png');
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.newsletter h3{
+    color: white;
+    font-size: 2.8rem;
+}
+.newsletter h4{
+    color: #a5a7a9;
+    font-weight: 300;
+}
+.newsletter span{
+    color: #d7a44c;
+}
+
+
+.newsletter form{
+    
+    height: 40px;
+    width: 500px;
+    
+}
+.newsletter input{
+    border-radius: 5px;
+    height:100%;
+    width: 80%;
+}
+.newsletter button{
+    border-radius: 5px;
+    font-family: 'League Spartan', sans-serif;
+    background-color: #088178;
+    color: white;
+    height: 100%;
+    width: 19%;
+    border: none;
+}
+
+
+/*////////////////footer section ///////////////////*/
+
+footer{
+    width: 100%;
+    min-width: 320px;
+    height: 550px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    line-height: 40px;
+
+}
+footer a{
+    text-decoration: none;
+    color: #000000;
+}
+footer div:nth-child(1) img{
+    
+    width: 180px;
+}
+footer div{
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.mobile-store:nth-child(1) a{
+    margin: 10px;
+    width: 70%;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid var(--green);
+    border-radius: 5px;
+    background-image: url('./img/pay/app.jpg');
+}
+.mobile-store:nth-child(2) a{
+    margin: 10px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid var(--green);
+    background-image: url('./img/pay/play.jpg');
+    
+}
+.pay-methods{
+    
+    height: 50px;
+    width: 100%;
+    background-image: url('./img/pay/pay.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 
 
 
