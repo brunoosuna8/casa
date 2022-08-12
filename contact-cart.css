@@ -161,6 +161,10 @@ header a:hover{
    color: white;
     
 }
+.header-content-about h3{
+    font-size: 4.6rem;
+}
+
 .header-content-about h4{
     color: white;
 }
