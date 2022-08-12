@@ -17,11 +17,7 @@ html{
 }
 
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 body{
     
     width: 100%;
@@ -174,14 +170,17 @@ header a:hover{
 
 
 .main-content{
-    padding: 15px;
     justify-content: center;
+    padding: 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     line-height: 20px;
 }
 .info-container{
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
     max-width: 600px;
     
 }
@@ -202,8 +201,13 @@ header a:hover{
     height: 15px;
     margin-right: 8px;
 }
+.map-container{
+    
+    
+}
 .map-container iframe{
     margin-top: 20px;
+    
     width: 600px;
     height: 450px;
     
@@ -212,16 +216,23 @@ header a:hover{
 /*//////////////////////////// contact content section ////////////////////*/
 
 .contact-content{
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
     padding: 15px;
-
+    border: 2px solid var(--grey-casa);
+    border-radius: 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 1250px;
+    min-width: 300px;
+    height: auto;
+    
 }
 
 .form-container{
-    
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     max-width: 900px;
@@ -242,8 +253,19 @@ header a:hover{
     margin: 10px 0;
     height: 30px;
 }
+.form-container input:nth-child(6){
+    
+    height: 200px;
+}
 .form-container form input:last-child{
-    width: 100px;
+    border-radius: 5px;
+    font-family: 'League Spartan', sans-serif;
+    background-color: #088178;
+    color: white;
+    width: 19%;
+    border: none;
+    height: 50px;
+    width: 130px;
 }
 .form-container form:only-child{
     margin: 20px 0;
@@ -257,6 +279,8 @@ header a:hover{
     display: flex;
     flex-direction: column;
     height: auto;
+    justify-content: center;
+    padding: 15px;
 }
 .employee {
     margin: 10px 0;
