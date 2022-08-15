@@ -50,8 +50,8 @@ h4{
     
 }
 h6{
-    font-weight: 700;
-    font-size: 1.2rem;
+    
+    font-size: 1.5rem;
     color: #222;
 }
 
@@ -122,16 +122,21 @@ header a:hover{
     text-decoration: none;
     
 }
-.menu li:last-child,#shopping-id{
+.menu .cart-bag{
+    
     list-style: none;
     text-decoration: none;
-    margin-right: 10px;
-    width: 35px;
-    height: 35px;
+    width: 32px;
+    height: 36px;
     background-image: url('./img/bag-shopping-solid.svg');
     background-size: contain;
     background-repeat: no-repeat;
-
+}
+.menu .cart-bag:hover{
+    background-color: var(--green);
+    border-radius: 40px;
+    color: #088178;
+    border: 2px solid var(--green);
 }
 .mobile{
     display: none;
@@ -140,6 +145,7 @@ header a:hover{
 .mobile-menu{
     width: 35px;
     height: 35px;
+    margin: 0 20px;
     background-image: url('./img/menu-mobile.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -302,6 +308,66 @@ header a:hover{
     width: 80px;
     height: 80px;
 }
+/* ////////////////////cart products container section////////////////// */
+
+
+.products-container{
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-products-container{
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-products-container div,.cart-product div{
+   
+    border: 2px solid black;
+    width: 150px;
+    height: 30px;
+}
+.info-products-container .product ,.info-products-container .image,.cart-product .product,.cart-product .image{
+    width: 300px;
+}
+
+.cart-product{
+    display: flex;
+    flex-direction: row;
+}
+.quantity input{
+width: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ////////////////////news letter section////////////////// */
 .newsletter{
@@ -466,7 +532,7 @@ footer div{
         width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: end;
         align-items: center;
     }
     .menu {
